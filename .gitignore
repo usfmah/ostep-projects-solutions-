@@ -10,7 +10,7 @@
 # Linker output
 *.ilk
 *.map
-*.exp
+# *.exp -- intentionally not ignored: tester/run-xv6-command.exp needs tracking
 
 # Precompiled Headers
 *.gch
@@ -30,7 +30,7 @@
 
 # Executables
 *.exe
-*.out
+# *.out -- intentionally not ignored: initial-utilities tests use *.out for expected output
 *.app
 *.i*86
 *.x86_64
@@ -53,3 +53,9 @@ dkms.conf
 
 # debug information files
 *.dwo
+
+# OSTEP initial-utilities binaries (no extension)
+initial-utilities/wcat/wcat
+initial-utilities/wgrep/wgrep
+initial-utilities/wzip/wzip
+initial-utilities/wunzip/wunzip
