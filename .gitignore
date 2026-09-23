@@ -59,3 +59,10 @@ initial-utilities/wcat/wcat
 initial-utilities/wgrep/wgrep
 initial-utilities/wzip/wzip
 initial-utilities/wunzip/wunzip
+
+# OSTEP tests — keep only READMEs and solutions (*.c) tracked
+**/tests/
+**/tests-out/
+**/test-*.sh
+tester/
+.vscode/
